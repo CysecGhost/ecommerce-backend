@@ -8,6 +8,7 @@ import productRoutes from "./routes/productRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
 
+const PORT = process.env.PORT || 8000;
 configDotenv();
 
 // Connect to DB
@@ -42,4 +43,4 @@ app.use("/api/orders", orderRoutes);
 app.use(notFound);
 app.use(errorHandler);
 
-app.listen(8000, "0.0.0.0", () => console.log("Server is running on 8000"));
+app.listen(PORT, () => console.log("Server is running on 8000"));

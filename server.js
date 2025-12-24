@@ -43,4 +43,4 @@ app.use("/api/orders", orderRoutes);
 app.use(notFound);
 app.use(errorHandler);
 
-app.listen(PORT, () => console.log("Server is running on 8000"));
+app.listen(PORT, () => console.log("Server is running on port", PORT));

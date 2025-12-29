@@ -39,3 +39,7 @@ REST API for a full-stack e-commerce application built with Node.js, Express, an
 
 ## Live API
 - https://ghost-ecommerce-backend.up.railway.app/
+
+## Author
+- Shahid Ali
+- GitHub: https://github.com/CysecGhost
